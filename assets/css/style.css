@@ -798,6 +798,7 @@ button {
             color: rgba(255, 255, 255, 0.5); }
           .default-header-section .header-bottom .menu-item-list > ul > .menu-item-has-children .sub-menu > li .active {
             color: #92268e
+            
 ; }
           .default-header-section .header-bottom .menu-item-list > ul > .menu-item-has-children .sub-menu > li:hover > a {
             color: #92268e
@@ -1057,12 +1058,10 @@ button {
   .scrolltop-fixed-header-section .header-bottom {
     padding: 30px;
     border-radius: 3px;
-    background-color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    -webkit-box-shadow: 0 2px 50px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 50px 2px rgba(0, 0, 0, 0.2); }
+     }
     .scrolltop-fixed-header-section .header-bottom .menu-item-list {
       padding: 8px 0px; }
       .scrolltop-fixed-header-section .header-bottom .menu-item-list > ul {
@@ -1074,7 +1073,7 @@ button {
             font-weight: 700;
             padding: 5px 15px;
             text-align: center;
-            color: #333333;
+            color: #ffffff;
             font-size: 16px;
             text-transform: uppercase; }
           .scrolltop-fixed-header-section .header-bottom .menu-item-list > ul > li:hover a {
@@ -1186,7 +1185,8 @@ button {
 
 .scrolltop-fixed-header-section.stuck {
   top: 0;
-  background-color: #ffffff;
+  background-color: #333333
+  ;
   -webkit-box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.1); }
   .scrolltop-fixed-header-section.stuck .header-bottom {
@@ -1733,7 +1733,7 @@ button {
       margin-right: 15px;
       text-align: center;
       color: #ffffff;
-      font-size: 24px;
+      font-size: 20px;
       background-color: #3b3b3b; }
     .default-footer-section .footer-top .basic-info .basic-info-item .info-content {
       display: table;
@@ -1745,9 +1745,12 @@ button {
         .default-footer-section .footer-top .basic-info .basic-info-item .info-content p a {
           color: #ffffff; }
       .default-footer-section .footer-top .basic-info .basic-info-item .info-content h3 {
-        font-weight: 700;
-        color:#92268e
-        font-size: 18px; }
+        font-weight: 600;
+        color:#92268e;
+        font-size: 15px;
+
+        
+      }
         .default-footer-section .footer-top .basic-info .basic-info-item .info-content h3 a {
           color: #92268e
 ; }
